@@ -12,7 +12,7 @@ public class PrimeNumber {
      * @return Returns a boolean value
      * @throws Exception if n less than zero
      */
-    public boolean isPrime(int n) throws IllegalArgumentException{
+    public boolean isPrime(double n) throws IllegalArgumentException{
         if (n < 0){
             throw new IllegalArgumentException();
         }

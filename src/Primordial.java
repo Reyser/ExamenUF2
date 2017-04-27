@@ -1,6 +1,6 @@
 
 public class Primordial {
-    public double get_primordial(int n) throws IllegalArgumentException{
+    public double get_primordial(double n) throws IllegalArgumentException{
         if (n < 0){
             throw new IllegalArgumentException() ;
         }
